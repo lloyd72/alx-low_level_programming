@@ -1,18 +1,19 @@
 #include "main.h"
+
 /**
- * _isalpha - main function
+ * _isalpha -function that checks for alkl alphabets
  *
- * @c: character to compare
+ * @c: parameter to be checked
  *
- * Return: 1 if true, 0 if false
+ * Return: 1 if  is an  alphabet
+ * and 0 otherwise
  *
  */
 
 int _isalpha(int c)
 {
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-	{
+	if ((c > 97 && c <= 122) || (c >= 65 && c <= 90))
 		return (1);
-	}
-	return (0);
+	else
+		return (0);
 }
