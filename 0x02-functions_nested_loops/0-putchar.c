@@ -1,13 +1,22 @@
 #include "main.h"
-#include <unistd.h>
+
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to point
+ * main - Entry point
  *
- * Return: on success 1.
- * On error, -1 is returned, and errno is set appropriatley.
+ * Return: Always returns 0
+ *
  */
-int _putchar(char c)
+int main(void)
 {
-	return (erite(1, &c, 1));
+	_putchar('H');
+	_putchar('o');
+	_putchar('l');
+	_putchar('b');
+	_putchar('e');
+	_putchar('r');
+	_putchar('t');
+	_putchar('o');
+	_putchar('n');
+	_putchar('\n');
+	return (0);
 }
