@@ -1,10 +1,8 @@
 #include "main.h"
-
 /**
- * main - Entry point
- *
- * Return: Always returns 0
- *
+ * main - print _putchar
+ * is writeen by lloyd
+ * Return: 0
  */
 int main(void)
 {
@@ -20,3 +18,5 @@ int main(void)
 	_putchar('\n');
 	return (0);
 }
+
+
