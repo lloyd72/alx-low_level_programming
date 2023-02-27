@@ -1,1 +1,11 @@
-main.c
+# Ignore all
+*
+# Unignore all with extensions
+!*.*
+a.out
+*.swp
+~*
+*-main.c
+_putchar.c
+# Unignore all dirs
+!*/
