@@ -35,4 +35,5 @@ ncoins += 1;
 }
 printf("%d\n", ncoins);
 return (0);
-} 
+}
+
