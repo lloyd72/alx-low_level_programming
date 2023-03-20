@@ -12,7 +12,7 @@ int _strlen(char *str)
 int len = 0;
 
 while (*str++)
-		len++;
+len++;
 return (len);
 }
 
@@ -77,4 +77,3 @@ dog_n->age = age;
 dog_n->owner = _strcpy(dog_n->owner, owner); /* save a copy of owner */
 return (dog_n);
 }
-
