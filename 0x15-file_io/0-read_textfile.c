@@ -6,8 +6,8 @@
 #include <stdlib.h>
 
 /**
- * read_textfile - reads  text file 
-* prints to POSIX stdoutput
+ * read_textfile - reads text file
+ * prints to POSIX stdoutput
  * @letters: numb  to read and print
  * @filename: funct to pointer
  *

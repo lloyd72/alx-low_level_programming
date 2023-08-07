@@ -2,7 +2,7 @@
 
 /**
  * create_file - Creates a file, stdout
- * 
+ *
  * @filename: Name of the file to create.
  * @text_content: terminate string to write if NULL
  * Return: if 1 success, if  -1 fail.
